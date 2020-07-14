@@ -1,0 +1,13 @@
+{
+  "name": "No one to follow",
+  "version": "0.0.1",
+  "description": "remove \"Who to follow\" section and \"You might like\" section",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://twitter.com/*"],
+      "css": ["styles.css"],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 2
+}

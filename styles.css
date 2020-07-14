@@ -1,0 +1,6 @@
+/* ko (Korean) */
+aside[aria-label="팔로우 추천"],
+/* en (English) */
+aside[aria-label="Who to follow"] {
+  display: none;
+}
